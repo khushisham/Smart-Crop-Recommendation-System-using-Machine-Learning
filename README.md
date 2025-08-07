@@ -1,51 +1,33 @@
-# 🌾 Smart Crop Recommendation System using Machine Learning
+# Smart Crop Recommendation System using Machine Learning
 
-This project is a machine learning-based crop recommendation system that suggests the most suitable crop to grow based on environmental factors like soil nutrients (N, P, K), temperature, humidity, pH, and rainfall. The system is trained on real-world agricultural data and uses a Random Forest Classifier for accurate predictions.
+This project is a machine learning-based crop recommendation system that predicts the most suitable crop to cultivate based on environmental features such as soil nutrients (N, P, K), temperature, humidity, pH, and rainfall. It uses real-world agricultural data and supervised learning models to deliver accurate predictions.
 
 ---
 
-## 📌 Project Highlights
+## Project Highlights
 
 - Predicts the most suitable crop for cultivation using soil and climate data.
-- Trained and tested multiple machine learning models, including SVM, KNN, Decision Tree, and Ensemble methods.
-- Random Forest Classifier selected as the final model due to its superior accuracy.
-- Includes a custom function for real-time crop prediction using user input.
-- Available as both a Python script and Jupyter/Colab notebook for ease of use.
+- Compares performance of 10+ machine learning models including SVM, KNN, Decision Tree, and Ensemble methods.
+- Final model selected: Random Forest Classifier due to its superior accuracy.
+- Custom prediction function implemented to generate real-time crop recommendations.
+- Demonstrates practical application of AI in agriculture.
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
-- Programming Language: Python
-- Libraries Used: pandas, numpy, scikit-learn, matplotlib, seaborn
-- Tools: Jupyter Notebook, Google Colab, Python script
-
----
-
-## 🔍 How It Works
-
-1. Load the crop dataset containing features like N, P, K, temperature, humidity, pH, and rainfall.
-2. Perform data cleaning, normalization, and label encoding.
-3. Train multiple classification models and evaluate their performance.
-4. Use the best-performing model (Random Forest) for prediction.
-5. Implement a custom function that accepts environmental values and returns the most suitable crop.
+- **Language:** Python  
+- **Libraries:** pandas, numpy, scikit-learn, seaborn, matplotlib  
+- **Tools Used:** Jupyter Notebook, Python script
 
 ---
 
-## 📂 Files in the Repository
+## How It Works
 
-- `recommendation_model.py`: Python script containing the entire ML pipeline and prediction function.
-- `crop_recommendation.ipynb`: Notebook version with step-by-step code and explanations.
-- `Crop_recommendation.csv`: Dataset used for training and testing.
-- `requirements.txt`: List of libraries required to run the project.
-- `README.md`: Project documentation and instructions.
+1. Load and preprocess the agricultural dataset (handle missing values, normalize features, encode labels).
+2. Train multiple machine learning models and compare their accuracy.
+3. Select the best-performing model (Random Forest) based on evaluation metrics.
+4. Use the trained model to predict the most suitable crop based on input values like NPK levels, temperature, humidity, pH, and rainfall.
 
----
 
-## ▶️ How to Run
-
-### On Local Machine
-
-1. Clone the repository and navigate into the folder.
-2. Install the required libraries using the command:
 
